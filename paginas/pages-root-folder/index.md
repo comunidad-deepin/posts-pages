@@ -1,31 +1,32 @@
 ---
 #
-# Use the widgets beneath and the content will be
-# inserted automagically in the webpage. To make
-# this work, you have to use › layout: frontpage
+# Usamos los widgets y la cadena del contenido
+# para incrustarlo automáticamente, si estás
+# editando, revisa › layout: frontpage
 #
-# Nota: Cambiar http://deepin-espanol.github.io si fuera necesario
+# Nota: La base es http://deepin-espanol.github.io
 #
 layout: frontpage
-teaser: "Página web Deepin en Español"
+teaser: "¡Una alternativa en nuestro idioma! Conoce Deepin, no solo por ser Linux. Te enseñamos a usarlo, cuidarlo y mantenerlo completo."
+meta_teaser: "Una alternativa en nuestro idioma"
 header:
   image_fullwidth: header_unsplash_12.jpg
+# Widgets
 widget1:
   title: "Instructivo"
-  url: 'https://deepin-espanol.github.io/blog/'
+  url: '/blog/'
   image: widget-1-302x182.jpg
-  text: 'Llevamos el conocimiento para conocer y dominar nuestro software. <em>Deepin en Español</em> ofrece una guía de instalación, serie de tutoriales y listados de aplicaciones. Además, añadimos un blog de noticias para estar al tanto de los últimos lanzamientos.'
-  video: '<a href="#" data-reveal-id="videoModal2"><img src="https://deepin-espanol.github.io/images/widget-1-302x182.jpg" width="302" height="182" alt=""/></a>'
+  text: 'Llevamos el conocimiento para conocer y dominar nuestro software. <em>Deepin en Español</em> ofrece una <a href="/instalacion/">guía de instalación</a>, <a href="/manual/">serie de tutoriales</a> y <a href="/apps/">listados de aplicaciones</a>. Además, añadimos un blog de <a href="/noticias/">noticias</a> para estar al tanto de los últimos lanzamientos.'
 widget2:
   title: "Did&aacute;ctico"
-  url: 'https://deepin-espanol.github.io/info/'
-  text: 'En <em>Deepin en Español</em> nos comprometemos:<br/>1. Contenido enriquecido.<br/>2. Ilustraciones y vídeos.<br/>3. Multiplataforma.<br/>4. <a href="{{ site.baseurl }}/tutopost/">Publicaciones colaborativas</a>.<br/>5. Y otras más...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="https://deepin-espanol.github.io/images/widget-2-302x182.jpg" width="302" height="182" alt=""/></a>'
+  url: '/info/'
+  image: widget-2-302x182.jpg
+  text: 'En <em>Deepin en Español</em> nos comprometemos:<br/>1. <a href="/tutopost/">Contenido enriquecido</a>.<br/>2. Ilustraciones y vídeos.<br/>3. Multiplataforma.<br/>4. Tips y <a href="/anexos/dudas/">dudas frecuentes</a>.<br/>5. Y otras más...'
 widget3:
   title: "Rec&iacute;proco"
-  url: 'https://deepin-espanol.github.io/contact/'
+  url: '/actividades/'
   image: widget-3-302x182.jpg
-  text: '<em>Nuestra comunidad</em> es atentida por humanos. No importa si has participado con anterioridad, son todos bienvenidos. ¿Quieres estar al día? <a href="{{ site.baseurl }}/feed.xml">¡Suscríbete!</a> ¿Tienes alguna sugerencia? ¡Puedes contactarnos con nuestro equipo!'
+  text: '<em>Nuestra comunidad</em> es atentida por humanos. No importa si has participado con anterioridad, son <a href="/actividades/">todos bienvenidos</a>. ¿Quieres estar al día? <a href="/feed.xml">¡Suscríbete!</a> ¿Tienes alguna sugerencia? ¡Puedes <a href="/info/contacto/">contactar</a> con nuestro equipo!'
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -37,8 +38,8 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: 'https://deepin-espanol.github.io/instalacion'
-  text: 'Descarga e instala la última versión de Deepin ›'
+  url: 'https://deepin-espanol.github.io/presentacion'
+  text: 'Echa un vistazo a lo que ofrecemos ›'
   style: alert
 permalink: /index.html
 #
@@ -47,16 +48,3 @@ permalink: /index.html
 #
 homepage: true
 ---
-
-<div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/P7AdcIifRFY" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
-<div id="videoModal2" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/dBAqsfE512g" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div>

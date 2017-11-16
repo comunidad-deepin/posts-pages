@@ -6,11 +6,12 @@ Este repositorio contiene posts y páginas. Es ideal para los nuevos editores qu
 ## Instrucciones
 Para crear un nuevo post te ofrecemos la forma más rápida:
 1. Basta descargar el archivo "post-simple" ofrecida en la carpeta videotutorial.
-2. Rellena los campos con la aplicación que prefieras.* El título (title), la categoría (categories)** y el texto (que es el final).
-3. Para subir una nueva publicación escoge una de las 4 carpetas de la carpeta madre "posts".
+2. Rellena los campos con la aplicación que prefieras.(1) El título (title), la categoría (categories)(2) y el texto (que es el final).
+3. Renombra el archivo a **yyyy-mm-dd-titulo.md**. Es indispensable indicar la fecha.
+4. Escoge una de las 4 carpetas de la carpeta madre "posts" y sube el archivo.
 
- * Recomendamos "ghostwriter" o buscar "editor markdown" en Internet.
- ** Las categorías son "apps", "tip", "manual" y "noticias". Cuando subas tendrás que ir a la carpeta que lleva dicha categoría.
+ (1) Recomendamos "ghostwriter" o buscar "editor markdown" en Internet.
+ (2) Las categorías son "apps", "tip", "manual" y "noticias". Cuando subas tendrás que ir a la carpeta que lleva dicha categoría.
 
 ## Ayuda
 
